@@ -1,8 +1,13 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
+type Props = {
+  isNumber?: boolean,
+  color?: string
+}
+
+export const Title = styled.h1<Props>`
   font-weight: bolder;
-  font-size: ${({number}) => number ? '10em' : '4em' };
+  font-size: ${({isNumber}) => isNumber ? '10em' : '4em' };
   padding-bottom: 40px;
   color: ${({color}) => color ? color : '#000'};
   z-index: 2;

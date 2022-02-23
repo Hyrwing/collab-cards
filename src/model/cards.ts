@@ -5,7 +5,7 @@ export interface CardModel {
     title?: string;
     subtitle?: string;
     icon: IconProp;
-    number?: boolean;
+    isNumber?: boolean;
 };
 
 export const Cards: CardModel[] = [
@@ -52,27 +52,27 @@ export const Cards: CardModel[] = [
     {
         icon: faEllipsisH,
         title: '1',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '2',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '3',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '4',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '5',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faQuestion,
@@ -83,31 +83,31 @@ export const OctopusCards: CardModel[] = [
     {
         icon: faEllipsisH,
         title: '1',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '2',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '3',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '4',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '5',
-        number: true,
+        isNumber: true,
     },
     {
         icon: faEllipsisH,
         title: '6',
-        number: true,
+        isNumber: true,
     },
 ];

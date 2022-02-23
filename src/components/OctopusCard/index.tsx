@@ -13,8 +13,8 @@ const OctopusCard = ({model, palette}: CardProps) => {
 
   return (
     <div>
-      <Title color={palette?.title} number={model.number}>{model.title}</Title>
-      <Image src={process.env.PUBLIC_URL + '/oct.png'} />
+      <Title color={palette?.title} is-number={model.isNumber}>{model.title}</Title>
+      <Image src={`${process.env.PUBLIC_URL}/oct.png`} />
       <Subtitle color={palette?.subtitle}>{model.subtitle}</Subtitle>
     </div>
   )

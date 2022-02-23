@@ -14,8 +14,8 @@ const Card = ({model, palette}: CardProps) => {
 
   return (
     <div>
-      <Title color={palette?.title} number={model.number}>{model.title}</Title>
-      <FontAwesomeIcon icon={model.icon} size={ model.number ? "2x" : "8x"} color={palette?.icon}/> 
+      <Title color={palette?.title} is-number={model.isNumber}>{model.title}</Title>
+      <FontAwesomeIcon icon={model.icon} size={ model.isNumber ? "2x" : "8x"} color={palette?.icon}/> 
       <Subtitle color={palette?.subtitle}>{model.subtitle}</Subtitle>
     </div>
   )
